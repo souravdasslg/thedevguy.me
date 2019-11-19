@@ -1,0 +1,4 @@
+#left-side {
+    flex-basis: 20%;
+    border: 1px dashed green;
+}
