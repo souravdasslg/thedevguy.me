@@ -1,4 +1,4 @@
-import React,{Component,Fragment} from 'react';
+import React,{Component} from 'react';
 //import './MainComponent.css';
 import LeftSideComponent from '../LeftSideComponent/LeftSideComponent';
 import RightSideComponent from '../RightSideComponent/RightSideComponent'
@@ -11,7 +11,7 @@ class MainComponent extends Component {
                     <Grid.Column color="blue" width={4}>
                         <LeftSideComponent />
                     </Grid.Column>
-                    <Grid.Column color="green" width={12}>
+                    <Grid.Column color="red" width={12}>
                         <RightSideComponent />
                     </Grid.Column>
                 </Grid.Row>

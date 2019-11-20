@@ -1,12 +1,12 @@
 import React,{Component} from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Input } from 'semantic-ui-react';
 class URLInputComponent extends Component {
     render() {
         return (
             <Grid>
                 <Grid.Row>
-                    <Grid.Column>
-                        URL Component
+                    <Grid.Column width={16}>
+                        <Input fluid/>
                         </Grid.Column>
                     </Grid.Row>
                 </Grid>

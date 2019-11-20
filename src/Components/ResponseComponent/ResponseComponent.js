@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import { Grid } from 'semantic-ui-react'
+import './ResponseContent.css'
 class ResponseComponent extends Component {
     render() {
         return (
-            <Grid>
-                <Grid.Row>
-                    <Grid.Column>
-                        Response Container
-                        </Grid.Column>
-                    </Grid.Row>
-                </Grid>
+            <div id="response-container">
+                <div></div>
+                <div>
+                    Response
+                    </div>
+            </div>
         )
     }
 }
