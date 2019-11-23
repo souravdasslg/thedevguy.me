@@ -8,10 +8,10 @@ class MainComponent extends Component {
         return (
             <Grid columns={2}>
                 <Grid.Row>
-                    <Grid.Column color="blue" width={4}>
+                    <Grid.Column color="black" width={4}>
                         <LeftSideComponent />
                     </Grid.Column>
-                    <Grid.Column color="red" width={12}>
+                    <Grid.Column color="black" width={12}>
                         <RightSideComponent />
                     </Grid.Column>
                 </Grid.Row>

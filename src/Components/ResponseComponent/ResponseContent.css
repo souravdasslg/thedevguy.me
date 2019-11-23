@@ -1,4 +1,7 @@
 #response-container {
     width: 100%;
-    background-color: coral;
+    color: grey;
+}
+#response {
+    overflow-y: auto;
 }
