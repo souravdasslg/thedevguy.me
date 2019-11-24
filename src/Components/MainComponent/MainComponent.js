@@ -6,7 +6,7 @@ import { Grid } from 'semantic-ui-react';
 class MainComponent extends Component {
     render() {
         return (
-            <Grid columns={2}>
+            <Grid columns={2} padded stackable>
                 <Grid.Row>
                     <Grid.Column color="black" width={4}>
                         <LeftSideComponent />

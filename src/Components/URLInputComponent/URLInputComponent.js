@@ -2,18 +2,19 @@ import React, { Component } from "react"
 import { Grid, Input, Dropdown } from "semantic-ui-react"
 class URLInputComponent extends Component {
   options = [
-    { key: ".com", text: ".com", value: ".com" },
-    { key: ".net", text: ".net", value: ".net" },
-    { key: ".org", text: ".org", value: ".org" }
+    { key: "GET", text: "GET", value: "GET" },
+    { key: "POST", text: "POST", value: "POST" },
+    { key: "PUT", text: "PUT", value: "PUT" },
+    { key: "PATCH", text: "PATCH", value: "PATCH" },
+    { key: "DELETE", text: "DELETE", value: "DELETE" }
   ]
-  dropdown = <Dropdown defaultValue=".com" options={this.options} style={{background: "black",color: "white",border: "1px solid white"}}/>
   render() {
     return (
       <Grid>
         <Grid.Row>
           <Grid.Column width={16}>
             <Input
-              label={this.dropdown}
+              label={<Dropdown search defaultValue="GET" options={this.options} />}
               labelPosition="left"
               placeholder="thedevguy.me"
               fluid
