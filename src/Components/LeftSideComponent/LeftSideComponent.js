@@ -6,7 +6,8 @@ class LeftSideComponent extends Component {
   render() {
     return (
       <Grid>
-        <Grid.Row></Grid.Row>
+        <Grid.Row>
+          </Grid.Row>
         <Grid.Row>
           <Grid.Column
             width={16}

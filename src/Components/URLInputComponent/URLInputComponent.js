@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Grid, Input, Dropdown } from "semantic-ui-react"
+import { Grid, Input, Dropdown, Button } from "semantic-ui-react"
 class URLInputComponent extends Component {
   options = [
     { key: "GET", text: "GET", value: "GET" },
@@ -14,11 +14,14 @@ class URLInputComponent extends Component {
         <Grid.Row>
           <Grid.Column width={16}>
             <Input
-              label={<Dropdown search defaultValue="GET" options={this.options} />}
+              type="text"
               labelPosition="left"
               placeholder="thedevguy.me"
               fluid
-            />
+            >
+              <input />
+              <Button content='Send' icon='send' labelPosition='right' inverted color="red" basic/>
+            </Input>
           </Grid.Column>
         </Grid.Row>
       </Grid>

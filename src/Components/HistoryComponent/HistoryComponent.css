@@ -17,3 +17,8 @@
   color: #30d396;
   font-weight: "bold";
 }
+@media(max-width: 768px) {
+  #history-container{
+    display: none;
+  }
+}

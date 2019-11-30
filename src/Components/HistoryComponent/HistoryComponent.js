@@ -18,6 +18,9 @@ class HistoryComponent extends Component {
   onClickRequestHistory = url => {
     console.log(url)
   }
+  componentDidMount() {
+    this.props.onHistoryItemClick("/about/me")
+  }
   render() {
     return (
       <div id="history-container">

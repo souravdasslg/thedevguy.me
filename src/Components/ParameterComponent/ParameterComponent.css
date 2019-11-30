@@ -1,0 +1,8 @@
+.parameterInput > input {
+    color: white !important;
+}
+@media(max-width: 768px) {
+    .parameterTable{
+      display: none;
+    }
+  }
