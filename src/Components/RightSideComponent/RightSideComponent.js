@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import { Grid, Button } from "semantic-ui-react"
-import URLInputComponent from "../URLInputComponent/URLInputComponent"
+import { Grid } from "semantic-ui-react"
+//import URLInputComponent from "../URLInputComponent/URLInputComponent"
 import ParameterComponent from "../ParameterComponent/ParameterComponent"
 import ResponseComponent from "../ResponseComponent/ResponseComponent"
 //import './RightSideComponent.css'

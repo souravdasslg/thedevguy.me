@@ -2,6 +2,7 @@ import React, { Component } from "react"
 //import './LeftSideComponent.css'
 import HistoryComponent from "../HistoryComponent/HistoryComponent"
 import { Grid } from "semantic-ui-react"
+import HistoryButtons from "../HistoryButtons/HistoryButtonComponent"
 class LeftSideComponent extends Component {
   render() {
     return (
@@ -18,6 +19,7 @@ class LeftSideComponent extends Component {
             }}
           >
             <HistoryComponent />
+            <HistoryButtons />
           </Grid.Column>
         </Grid.Row>
       </Grid>

@@ -3,8 +3,10 @@ import { Button } from 'semantic-ui-react';
 const HistoryButtons = () => {
     return (
         <div class="mobileHistory">
-            <Button> About Me </Button>
-            <Button> My Project </Button>
+            <Button primary> /about/me </Button>
+            <Button primary> my/projects </Button>
+            <Button primary>/experiences </Button>
+            <Button primary> /contacts </Button> 
         </div>
     )
 }

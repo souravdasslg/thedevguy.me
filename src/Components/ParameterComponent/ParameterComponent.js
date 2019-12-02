@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Table, Grid, Input, Dropdown } from "semantic-ui-react";
+import { Table, Input, Dropdown } from "semantic-ui-react";
 import './ParameterComponent.css'
 class ParameterComponent extends Component {
   options = [
