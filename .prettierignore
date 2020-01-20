@@ -1,0 +1,11 @@
+/node_modules
+/config.js
+/coverage
+/dist
+/tmp
+.DS_Store
+.cache
+/*.log
+package.json
+test/**/**/_fixtures
+bin/yarn*

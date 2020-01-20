@@ -1,13 +1,13 @@
-import React, { Component } from "react"
-import { Grid } from "semantic-ui-react"
+import React, { Component } from "react";
+import { Grid } from "semantic-ui-react";
 //import URLInputComponent from "../URLInputComponent/URLInputComponent"
-import ParameterComponent from "../ParameterComponent/ParameterComponent"
-import ResponseComponent from "../ResponseComponent/ResponseComponent"
+import ParameterComponent from "../ParameterComponent/ParameterComponent";
+import ResponseComponent from "../ResponseComponent/ResponseComponent";
 //import './RightSideComponent.css'
 class RightSideComponent extends Component {
   render() {
     return (
-      <Grid> 
+      <Grid>
         <Grid.Row>
           <Grid.Column width={16} style={{ minHeight: "10px" }}></Grid.Column>
         </Grid.Row>
@@ -30,7 +30,7 @@ class RightSideComponent extends Component {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    )
+    );
   }
 }
-export default RightSideComponent
+export default RightSideComponent;

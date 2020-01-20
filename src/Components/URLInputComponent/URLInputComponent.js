@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import { Grid, Input, Dropdown, Button } from "semantic-ui-react"
+import React, { Component } from "react";
+import { Grid, Input, Dropdown, Button } from "semantic-ui-react";
 class URLInputComponent extends Component {
   options = [
     { key: "GET", text: "GET", value: "GET" },
@@ -7,7 +7,7 @@ class URLInputComponent extends Component {
     { key: "PUT", text: "PUT", value: "PUT" },
     { key: "PATCH", text: "PATCH", value: "PATCH" },
     { key: "DELETE", text: "DELETE", value: "DELETE" }
-  ]
+  ];
   render() {
     return (
       <Grid>
@@ -20,12 +20,19 @@ class URLInputComponent extends Component {
               fluid
             >
               <input />
-              <Button content='Send' icon='send' labelPosition='right' inverted color="red" basic/>
+              <Button
+                content="Send"
+                icon="send"
+                labelPosition="right"
+                inverted
+                color="red"
+                basic
+              />
             </Input>
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    )
+    );
   }
 }
-export default URLInputComponent
+export default URLInputComponent;

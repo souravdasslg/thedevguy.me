@@ -1,8 +1,8 @@
-import React, { Component } from "react"
-import ReactJson from "react-json-view"
-import "./ResponseContent.css"
-import { connect } from "react-redux"
-import { Grid } from "semantic-ui-react"
+import React, { Component } from "react";
+import ReactJson from "react-json-view";
+import "./ResponseContent.css";
+import { connect } from "react-redux";
+import { Grid } from "semantic-ui-react";
 class ResponseComponent extends Component {
   state = {
     predefinedResponse: {
@@ -72,10 +72,10 @@ class ResponseComponent extends Component {
         linkedIn: `https://www.linkedin.com/in/souravdasslg`
       }
     }
-  }
+  };
   render() {
-    const { predefinedResponse } = this.state
-    const { selectedUrl } = this.props
+    const { predefinedResponse } = this.state;
+    const { selectedUrl } = this.props;
     return (
       <Grid>
         <Grid.Row style={{ border: "1px solid white", marginTop: "1px" }}>
@@ -100,10 +100,10 @@ class ResponseComponent extends Component {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    )
+    );
   }
 }
 const mapStateToProps = state => {
-  return { selectedUrl: state.currentUrl }
-}
-export default connect(mapStateToProps)(ResponseComponent)
+  return { selectedUrl: state.currentUrl };
+};
+export default connect(mapStateToProps)(ResponseComponent);

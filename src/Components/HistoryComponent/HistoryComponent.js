@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import { connect } from "react-redux"
-import * as actionsTypes from "../../store/actions"
-import "./HistoryComponent.css"
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import * as actionsTypes from "../../store/actions";
+import "./HistoryComponent.css";
 function HistoryItem(props) {
   return (
     <div
@@ -11,15 +11,15 @@ function HistoryItem(props) {
       <span className="history-item__method">{props.method}</span>
       {props.url}
     </div>
-  )
+  );
 }
 
 class HistoryComponent extends Component {
   onClickRequestHistory = url => {
-    console.log(url)
-  }
+    console.log(url);
+  };
   componentDidMount() {
-    this.props.onHistoryItemClick("/about/me")
+    this.props.onHistoryItemClick("/about/me");
   }
   render() {
     return (
@@ -46,13 +46,13 @@ class HistoryComponent extends Component {
           onClickHandler={this.props.onHistoryItemClick}
         />
       </div>
-    )
+    );
   }
 }
 const mapDispatchToProps = dispatch => {
   return {
     onHistoryItemClick: url =>
       dispatch({ type: actionsTypes.HISTORY_ITEM_CLICKED, payload: url })
-  }
-}
-export default connect(null,mapDispatchToProps)(HistoryComponent)
+  };
+};
+export default connect(null, mapDispatchToProps)(HistoryComponent);
