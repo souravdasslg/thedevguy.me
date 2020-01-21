@@ -15,16 +15,15 @@ function HistoryItem(props) {
 }
 
 class HistoryComponent extends Component {
-  onClickRequestHistory = url => {
-    console.log(url);
-  };
   componentDidMount() {
     this.props.onHistoryItemClick("/about/me");
   }
   render() {
     return (
       <div id="history-container">
-        <h3> History </h3>
+        <p>
+          Explore
+        </p>
         <HistoryItem
           method="GET"
           url="/about/me"
@@ -38,11 +37,6 @@ class HistoryComponent extends Component {
         <HistoryItem
           method="GET"
           url="/experience"
-          onClickHandler={this.props.onHistoryItemClick}
-        />
-        <HistoryItem
-          method="POST"
-          url="/contact/me"
           onClickHandler={this.props.onHistoryItemClick}
         />
       </div>

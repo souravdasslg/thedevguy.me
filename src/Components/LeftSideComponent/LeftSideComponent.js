@@ -13,7 +13,6 @@ class LeftSideComponent extends Component {
             width={16}
             color="black"
             style={{
-              border: "solid 1px white",
               marginTop: ".1em"
             }}
           >

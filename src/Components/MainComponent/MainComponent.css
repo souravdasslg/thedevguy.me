@@ -1,9 +1,10 @@
-h1 {
+h3 {
     text-align: center;
     font-size: 3em;
     color:white;
-    -webkit-animation: text-flicker-in-glow 4s linear 2 both;
-	        animation: text-flicker-in-glow 4s linear 2 both;
+    float: left;
+    /*-webkit-animation: text-flicker-in-glow 4s linear 2 both;*/
+	/*        animation: text-flicker-in-glow 4s linear 2 both;*/
 }
 p{
     text-align: center;

@@ -9,8 +9,7 @@ class MainComponent extends Component {
       <Grid padded stackable>
         <Grid.Row className="header-gradient">
           <Grid.Column width={16}>
-            <h1> Sourav Das</h1>
-            <p> Full Stack Developer </p>
+            <h3> Sourav Das</h3>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>

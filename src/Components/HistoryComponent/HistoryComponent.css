@@ -1,24 +1,29 @@
 #history-container {
   height: 92vh;
 }
-#history-container > h3 {
-  text-align: center;
+#history-container > p {
+  text-align: left;
   font-weight: bold;
+  color: white;
+  font-size: 25px;
+  border-bottom: coral 1px solid;
 }
+
 .history-item {
   color: greenyellow;
-  border: 1px solid #0f0f0f;
   cursor: pointer;
-  background-color: #313131;
+  background-color: inherit;
   line-height: 3em;
+  font-size: 20px;
 }
 .history-item__method {
   margin-right: 10px;
   color: #30d396;
-  font-weight: "bold";
+  font-weight: bold;
+  font-size: 10px;
 }
-@media(max-width: 768px) {
-  #history-container{
+@media (max-width: 768px) {
+  #history-container {
     display: none;
   }
 }
