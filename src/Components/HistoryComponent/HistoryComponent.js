@@ -31,7 +31,7 @@ class HistoryComponent extends Component {
         />
         <HistoryItem
           method="GET"
-          url="/my/projects"
+          url="/projects"
           onClickHandler={this.props.onHistoryItemClick}
         />
         <HistoryItem

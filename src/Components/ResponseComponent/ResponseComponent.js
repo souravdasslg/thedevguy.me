@@ -17,7 +17,7 @@ class ResponseComponent extends Component {
         I am very passionate about Web Development, and strive to better myself as a developer.`,
         workExperience: "2.5 Years"
       },
-      "/my/projects": [
+      "/projects": [
         {
           "React Based Snake Game": {
             technologies: ["React", "HTML5", "CANVAS API"],

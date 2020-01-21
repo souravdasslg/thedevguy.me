@@ -13,10 +13,14 @@ p{
     /* -webkit-animation: vibrate-1 0.3s linear infinite both;
 	        animation: vibrate-1 0.3s linear infinite both; */
 }
+.socialIcons {
+    float: right;
+    cursor: pointer;
+}
 .header-gradient {
-    background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #282828;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #414345, #232526);  !* Chrome 10-25, Safari 5.1-6 *!*/
+/*background: linear-gradient(to right, #414345, #232526); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
 
 }
 * {

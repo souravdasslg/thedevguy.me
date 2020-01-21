@@ -32,7 +32,7 @@ class ParameterComponent extends Component {
         internalUrl: "/about/me"
       }
     ],
-    "/my/projects": [
+    "/projects": [
       {
         key: "Snake Game",
         value: (
